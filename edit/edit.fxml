@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="774.0" style="-fx-background-color: #36003E;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edit.Edit">
+    <children>
+        <AnchorPane layoutX="261.0" layoutY="-6.0" prefHeight="520.0" prefWidth="519.0" style="-fx-background-color: #4C0058;">
+            <children>
+                <CheckBox fx:id="degreeBox" layoutX="48.0" layoutY="195.0" mnemonicParsing="false" text="Вчений ступінь" textFill="WHITE">
+                    <font>
+                        <Font name="Calibri" size="25.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="oldBox" layoutX="291.0" layoutY="195.0" mnemonicParsing="false" text="Пенсійний вік" textFill="WHITE">
+                    <font>
+                        <Font name="Calibri" size="25.0" />
+                    </font>
+                </CheckBox>
+            <ChoiceBox fx:id="employee_id" layoutX="49.0" layoutY="57.0" prefHeight="48.0" prefWidth="435.0" style="-fx-background-radius: 0;" />
+            <ChoiceBox fx:id="stafflist_id" layoutX="49.0" layoutY="120.0" prefHeight="48.0" prefWidth="435.0" style="-fx-background-radius: 0;" />
+            </children>
+      </AnchorPane>
+        <Button fx:id="goBackButton" layoutX="40.0" layoutY="420.0" mnemonicParsing="false" onAction="#goBackMethod" prefHeight="40.0" prefWidth="170.0" style="-fx-background-radius: 0; -fx-background-color: #1FA125;" text="Назад" textFill="#136500">
+            <font>
+                <Font name="Calibri" size="25.0" />
+            </font>
+        </Button>
+        <Button fx:id="editButton" layoutX="40.0" layoutY="50.0" mnemonicParsing="false" onAction="#editMethod" prefHeight="40.0" prefWidth="170.0" style="-fx-background-radius: 0; -fx-background-color: #1FA125;" text="Змінити" textFill="#136500">
+            <font>
+                <Font name="Calibri" size="25.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

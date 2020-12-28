@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="774.0" style="-fx-background-color: #36003E;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="show.department.Dep">
+    <children>
+        <AnchorPane layoutX="263.0" layoutY="-6.0" prefHeight="520.0" prefWidth="519.0" style="-fx-background-color: #4C0058;">
+            <children>
+                <TableView fx:id="showAllTable" layoutX="5.0" layoutY="10.0" prefHeight="506.0" prefWidth="510.0">
+                    <columns>
+                        <TableColumn fx:id="allID" prefWidth="254.0" text="ID" />
+                        <TableColumn fx:id="name" prefWidth="255.0" text="Назва" />
+                    </columns>
+                </TableView>
+            </children></AnchorPane>
+        <Button fx:id="goBackButton" layoutX="40.0" layoutY="420.0" mnemonicParsing="false" onAction="#goBackButton" prefHeight="40.0" prefWidth="170.0" style="-fx-background-radius: 0; -fx-background-color: #1FA125;" text="Назад" textFill="#136500">
+            <font>
+                <Font name="Calibri" size="25.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
